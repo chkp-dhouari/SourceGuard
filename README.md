@@ -97,7 +97,7 @@ dean:sourceguard dasig$
 ```
 ## YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
 
-### Run the sourceguard CLI as an executable with ./
+### Run the sourceguard CLI with ./ on MacOS and Linux:
 
 > ./sourceguard-cli
 
@@ -147,11 +147,12 @@ This illustrate the importance of container image scanning from any source on Do
  ### LINUX Installation:
  
  The installation on Linus is pretty much the same as MacOS by downloading the sourceguard-cli file on your linux system or VM.
- The IMPORTANT point is to make the sourceguard-cli file as executable with chmod command 
+
+ ### Make the sourceguard-cli file as executable with chmod +x command:
  
  > chmod +x sourceguard-cli
  
- Then run the sourceguard-cli with ./
+ ### Then run the sourceguard-cli with ./:
  
  > ./sourceguard-cli -src or -img
  
