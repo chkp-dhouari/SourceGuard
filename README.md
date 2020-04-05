@@ -156,7 +156,7 @@ This illustrate the importance of container image scanning from any source on Do
  ![header image](docker2.png)
 
 
- ### LINUX Installation:
+ ## LINUX Installation:
  
  The installation on Linus is pretty much the same as MacOS by downloading the sourceguard-cli file on your linux system or VM.
 
@@ -169,7 +169,7 @@ This illustrate the importance of container image scanning from any source on Do
  > ./sourceguard-cli -src or -img
  
  
-### Windows Installation:
+## WINDOWS Installation:
 
 Download the sourceguard-cli exe file to the sourceguard directory that you created, copy the tokens and then execeute the sourceguard-cli from the windowns command line tool.
  
