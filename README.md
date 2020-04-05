@@ -34,7 +34,7 @@ ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAS
 ## SOURCEGUARD Installation
 
 Please go to portal.checkpoint.com 
-Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space.
+Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space under the building icon in the top menu bar.
 
    ![header image](infinity6.png)
    
