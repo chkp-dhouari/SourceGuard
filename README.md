@@ -18,7 +18,7 @@ in a branch on a repo.
 When the code is ready to be compiled into an artifact such as a container, it is important to then scan the container image to tested and deployed.
 We will be providing support for Docker and the way to create a container is with a Dockerfile which defines the layers composed of containers images, source code and commands used by the app container image.
 As developpers use these container images such as busybox, node, nginx etc.. from DockerHub, they may be including CVEs and critical malware.
-You can find Container training on my page at 
+You can find Container training on my page on how to use Docker containers and create a Docker container image: 
 > https://github.com/chkp-dhouari/Mastering-Kubernetes/blob/master/Just-Enough-Containers.md
 
 The SourceGuard scanner will provide SAST and DAST for source code and container images. 
