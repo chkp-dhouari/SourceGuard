@@ -106,7 +106,7 @@ dean:sourceguard dasig$ export SG_SECRET_KEY=73eb0ac8b12b4b7b9a9f6e30bd305848
 dean:sourceguard dasig$ 
 
 ```
-## YOU ARE NOW READY TO SCAN YOUR SOURCE CODE AND CONTAINERS
+## YOU ARE NOW READY TO SCAN YOUR SOURCE CODE AND YOUR DOCKER CONTAINER IMAGES!
 
 ### Run the SourceGuard CLI with ./ on MacOS:
 
