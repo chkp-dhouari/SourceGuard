@@ -1,5 +1,5 @@
-# CheckPoint SourceGuard
-Check Point Software SAST source code and container image scanner
+# CheckPoint SOURCEGUARD
+CheckPoint Software source code and container image scanner
 
 With the rapid adoption of devops for application build and runtime, workloads have evolved from infrastructure servers and virtual machines to code with containers and serverless.
 Infrastructure style security has to evolve as well to code centric security from application build to runtime by shifting to the left and by becoming treated as code.
@@ -24,7 +24,7 @@ on our endpoint security.
 ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAST security. 
 SourceGuard is in available for Beta testing on the CheckPoint Infinity portal.
 
-## SourceGuard Installation
+## SOURCEGUARD Installation
 
 Please go to portal.checkpoint.com 
 Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space.
