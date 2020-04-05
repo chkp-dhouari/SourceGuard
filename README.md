@@ -71,7 +71,7 @@ Usage of ./sourceguard-cli:
  
  The next step will be to create a token in order to associate the sourceguard-cli command utility to the infinity portal where it will display all scans performed and their results.
  
- ![header image](token.png)
+  ![header image](token.png)
  
 ```
 dean:sourceguard dasig$ export SG_CLIENT_ID=327a79b6-b4a1-468b-9b23-617ba8fa069c;
@@ -81,7 +81,7 @@ dean:sourceguard dasig$
 ```
 ## YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
 
-### Run the sourceguard CLI as an executable with
+### Run the sourceguard CLI as an executable with ./
 
 > ./sourceguard-cli
 
