@@ -101,7 +101,7 @@ dean:sourceguard dasig$
 ```
 ## YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
 
-### Run the sourceguard CLI with ./ on MacOS and Linux:
+### Run the sourceguard CLI with ./ on MacOS:
 
 > ./sourceguard-cli
 
@@ -169,7 +169,7 @@ This illustrate the importance of container image scanning from any source on Do
  
  ### Then run the sourceguard-cli with ./:
  
- > ./sourceguard-cli -src or -img
+ > sourceguard-cli -src or -img
  
  
 ## WINDOWS Installation:
