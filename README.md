@@ -22,7 +22,8 @@ You can find Container training on my page at https://github.com/chkp-dhouari/Ma
 
 The SourceGuard scanner will provide SAST and DAST for source code and container images. 
 there are many SAST and DAST scanners such Clair and Anchore but the true se3curity value is with the ability to find CVEs and Critical Malware.
-We at CheckPoint will be using ThreatCloud on the scanner backend. ThreadCloud is the market leading vulnerability and CVE DB that is been succesfully used
+SOURCEGUARD will be using ThreatCloud on backend using the MD5/SHA256 signatures of the content scanned. 
+ThreadCloud is the market leading vulnerability and CVE DB that is been succesfully used
 on our endpoint security.
 ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAST security. 
   https://community.checkpoint.com/t5/CheckMates-Nuggets/What-is-Threat-Cloud/td-p/47738
@@ -137,6 +138,15 @@ dean:sourceguard dasig$ ./sourceguard-cli -img palo.tar
 05-04-2020 20:31:06.750 Scanning ...
 05-04-2020 20:32:49.848 Analyzing ...
 05-04-2020 20:33:51.766 Action: BLOCK
+Content Findings:
+	- ID: 10000000-0000-0000-0000-000000000004
+	  Name: "aws_secret_access_key"
+	  Description: "Possible AWS secret access key"
+		- SHA: 7799a8022096746c3a2c668f6f3234dc67df9c03e97d10dc357e33c6265eca83 Path: /var/folders/b4/dpgj60zj7854dsd2kdhbdhp80000gn/T/terraform-templates/one-click-multi-cloud/one-click-aws/aws_two_tier.tf
+			- SHA: dfdbeca0b17d4756f4bd3c18459950b93ad24d25919f88007db26c241d36c593
+			  Payload: key=LUFRPT10VGJKTEV6a0R4L1JXd0ZmbmN*********
+			  Lines: [289]
+
 
 ```
 
