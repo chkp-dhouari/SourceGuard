@@ -137,8 +137,6 @@ dean:sourceguard dasig$ ls -l palo.tar
 -rw-------  1 dasig  staff  511048704 Apr  5 20:25 palo.tar
 dean:sourceguard dasig$ 
 dean:sourceguard dasig$ 
-dean:sourceguard dasig$ sourceguard-cli -img palo.tar
--bash: sourceguard-cli: command not found
 dean:sourceguard dasig$ ./sourceguard-cli -img palo.tar
 05-04-2020 20:30:55.813 SourceGuard Started
 05-04-2020 20:30:57.357 Project name: terraform_ansible path: /var/folders/b4/dpgj60zj7854dsd2kdhbdhp80000gn/T/sourceGuard162328374
