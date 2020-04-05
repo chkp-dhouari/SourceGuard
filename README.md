@@ -190,10 +190,15 @@ This illustrate the importance of container image scanning from any source on Do
 Download the sourceguard-cli exe file to the sourceguard directory that you created, copy the tokens and then execeute the sourceguard-cli from the windowns command line tool.
  
  
-## All the scans performed can be accessed under the Scans tab and are all catalogued under the Project tab. Each scan can be identified with a scan id which is automatically generated when running the scan at the command line.
+## SourceGuard Management and tracking:
+    All the scans performed can be accessed under the Scans tab and are all catalogued under the Project tab. 
+    Each scan can be identified with a scan id which is automatically generated when running the scan at the command line.
 
 
    ![header image](infinity10.png)
+   
+   
+   ![header image](infinity11.png)
 
 
 
