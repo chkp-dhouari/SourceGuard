@@ -29,7 +29,7 @@ SourceGuard is in available for Beta testing on the CheckPoint Infinity portal.
 Please go to portal.checkpoint.com 
 Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which cannot be used.
 
-   ![header image](infinity1)
+   ![header image](infinity1.png)
    
    
 
