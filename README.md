@@ -101,13 +101,16 @@ Usage of ./sourceguard-cli:
  The next step will be to create a token in order to associate the sourceguard-cli command utility to the infinity portal where it will display all scans performed and their results.
  
   ![header image](token2.png)
+  
+ Then paste the generated token at the command line:
  
 ```
-dean:sourceguard dasig$ export SG_CLIENT_ID=327a79b6-b4a1-468b-9b23-617ba8fa069c;
-dean:sourceguard dasig$ export SG_SECRET_KEY=73eb0ac8b12b4b7b9a9f6e30bd305848
+dean:sourceguard dasig$ export SG_CLIENT_ID=..hiden output..
+dean:sourceguard dasig$ export SG_SECRET_KEY=..hiden output..
 dean:sourceguard dasig$ 
 
 ```
+Please keep these token values safe..
 ## YOU ARE NOW READY TO SCAN YOUR SOURCE CODE AND YOUR DOCKER CONTAINER IMAGES!
 
 ### Run the SourceGuard CLI with ./ on MacOS:
