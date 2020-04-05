@@ -36,7 +36,7 @@ ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAS
 Please go to portal.checkpoint.com 
 Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space.
 
-   ![header image](infinity1.png)
+   ![header image](infinity6.png)
    
 Please click on the SourceGuard service under the CONFIG tab on the left side menu and chose the Operating System of your choice ..Windows, MacOS or Linux by clicking on Dowload. the latest file is the recommeded choice and please download to your system in a dir.
 I would recommend creating a directory to store the file and where you can run all your scans.
