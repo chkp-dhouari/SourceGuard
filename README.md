@@ -89,7 +89,7 @@ dean:sourceguard dasig$
 
 > ./sourceguard-cli
 
-Note: in order to scan Docker container images, you will need to save docker images in a .tar file
+Note: in order to scan Docker container images, you will need to save docker images in a .tar file.
 In the example below, i am scanning the PALO ALTO container image for Terraform/Ansible that i downloaded from Docker hub..
 
 ```
