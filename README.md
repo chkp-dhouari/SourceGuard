@@ -128,7 +128,7 @@ dean:sourceguard dasig$ ./sourceguard-cli -img palo.tar
 The results are displayed on the portal and CLI and was flagged as BLOCK...SOURCEGUARD found many critical CVEs 
 This illustrate the importance of container image scanning from any source on Docker Hub  and the ability of SOURCEGUARD to succesfully find critical issues with ThreatCloud 
 
- ![header image](docker1.png)
+ ![header image](docker2.png)
 
 
  ### LINUX Installation:
