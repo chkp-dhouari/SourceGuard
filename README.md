@@ -44,8 +44,19 @@ I would recommend creating a directory to store the file and where you can run a
  
  ## MacOS Installation:
  
-Please download and copy the sourceguard-cli file to a directory of your choice then make the sourceguard-cli as executable with the 
-<chmod 750> command using the mac terminal.
+Please download and copy the sourceguard-cli file to a directory of your choice 
+
+# make the sourceguard-cli as executable 
+
+> chmod 750 sourceguard-cli
+
+# For source code scanning
+
+> sourceguard-cli -src <file location>
+           
+# For Docker image scanning
+
+> sourceguard-cli -img <docker_image>.tar
  
 ```
 dean:Downloads dasig$ 
