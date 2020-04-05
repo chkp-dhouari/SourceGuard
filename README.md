@@ -86,6 +86,7 @@ dean:sourceguard dasig$
 > ./sourceguard-cli
 
 Note: in order to scan Docker container images, you will need to save docker images in a .tar file
+In the example below, i am scanning a F5 networks container image that i downloaded from Docker hub..
 
 ```
 dean:sourceguard dasig$ docker images
@@ -112,9 +113,10 @@ dean:sourceguard dasig$ ./sourceguard-cli -img f5.tar
 
 ```
 
+The results are displayed on the portal and the tool found many critical CVEs which would recommend NOT running this container as well.
+This illustrate the importance of container image scanning and the ability of SOURCEGUARD to succesfully find critical issues with ThreatCloud 
 
-
-
+ ![header image](docker1.png)
 
 
  
