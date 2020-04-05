@@ -159,6 +159,9 @@ This illustrate the importance of container image scanning from any source on Do
  ## LINUX Installation:
  
  The installation on Linus is pretty much the same as MacOS by downloading the sourceguard-cli file on your linux system or VM.
+ You can build Linux VMs using virtual box automatically in a devops manner with the Vagrant I provide with my mastering Kubernetes course located at: 
+ 
+https://github.com/chkp-dhouari/Mastering-Kubernetes/blob/master/Provision-the-Kubernetes-environment.md
 
  ### Make the sourceguard-cli file as executable with chmod +x command:
  
