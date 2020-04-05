@@ -51,9 +51,13 @@ I would recommend creating a directory to store the file and where you can run a
 > sourceguard-cli -src file 
            
 ### For Docker image scanning:
-#### Note: Installing Docker is not required for using SOURCEGUARD on your system . ALL you need is to docker image in a .tar file.
+#### Note:  Installing Docker is not required for using SOURCEGUARD on your system . ALL you need is a docker image in a .tar file format.
 
 > sourceguard-cli -img <docker_image>.tar
+
+#### In order to convert a Docker image in .tar file, please do:
+
+> docker save <docker image> -o <any name>.tar
  
  
  ## MacOS Installation:
@@ -168,9 +172,13 @@ This illustrate the importance of container image scanning from any source on Do
  
  > chmod +x sourceguard-cli
  
- ### Then run the sourceguard-cli with ./:
+ ### Then run the sourceguard-cli:
  
  > sourceguard-cli -src or -img
+ 
+ or
+ 
+ > ./sourceguard-cli -src or -img
  
  
 ## WINDOWS Installation:
