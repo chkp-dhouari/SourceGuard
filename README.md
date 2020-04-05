@@ -80,11 +80,11 @@ dean:sourceguard dasig$ export SG_SECRET_KEY=73eb0ac8b12b4b7b9a9f6e30bd305848
 dean:sourceguard dasig$ 
 
 ```
-#YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
+###YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
 
-run the sourceguard CLI as an executable with
+#Run the sourceguard CLI as an executable with
 
-#./sourceguard-cli
+> ./sourceguard-cli
 
 Note: in order to scan Docker container images, you will need to save docker images in a .tar file
 
