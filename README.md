@@ -57,7 +57,7 @@ I would recommend creating a directory to store the file and where you can run a
 
 #### In order to convert a Docker image in .tar file, please do:
 
-> docker save  <docker image> -o <any name>.tar
+> docker save docker_image -o <any name>.tar
  
  
  ## MacOS Installation:
