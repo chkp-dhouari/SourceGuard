@@ -173,8 +173,8 @@ This illustrate the importance of container image scanning from any source on Do
 
 Download the sourceguard-cli exe file to the sourceguard directory that you created, copy the tokens and then execeute the sourceguard-cli from the windowns command line tool.
  
-# Interest, Questions or issues, please contact me at dhouari@checkpoint.com
-   
+ 
+ 
    
 
 
