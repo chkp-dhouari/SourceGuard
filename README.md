@@ -4,7 +4,7 @@
 With the rapid adoption of devops for application build and runtime, workloads have evolved from infrastructure servers and virtual machines to code with containers and serverless.
 Infrastructure style security has to evolve as well to code centric security from application build to runtime by shifting to the left and by becoming treated as code.
 DevOps is built around a CI/CD methodology with various stage where all the stages are automated and interconnected by pipeline from build to deployment.
-It is important to apply natively secureity to the main stages of the CI/CD pipeline from BUILD to RUNTIME.
+It is important to natively integrate security to the main stages of the CI/CD pipeline from BUILD to RUNTIME in order to allow application teams to develop apps securely at devops and cloud native speed.
 
 This is well illustrated by the 4Cs of Cloud Native Security as defined by the CNCF. 
 The 4Cs encompass code,container,kubernetes(COE) and Cloud(hybrid, multi, private,on-prem) and are depending on each other. Securing each element of the 4Cs is critical.
