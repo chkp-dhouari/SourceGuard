@@ -179,7 +179,7 @@ This illustrate the importance of container image scanning from any source on Do
  
 ## WINDOWS Installation:
 
-Download the sourceguard-cli exe file to the sourceguard directory that you created, copy the tokens and then execeute the sourceguard-cli from the windowns command line tool.
+Download the sourceguard-cli exe file to the sourceguard directory that you created, copy the tokens and then execute the sourceguard-cli from the windowns command line tool.
  
  
 ## SourceGuard Management and Tracking:
