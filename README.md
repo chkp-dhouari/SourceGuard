@@ -149,15 +149,11 @@ dean:sourceguard dasig$ ./sourceguard-cli -img palo.tar
 05-04-2020 20:32:49.848 Analyzing ...
 05-04-2020 20:33:51.766 Action: BLOCK
 Content Findings:
-	- ID: 10000000-0000-0000-0000-000000000004
+	- ID: .....
 	  Name: "aws_secret_access_key"
 	  Description: "Possible AWS secret access key"
-		- SHA: 7799a8022096746c3a2c668f6f3234dc67df9c03e97d10dc357e33c6265eca83 Path: /var/folders/b4/dpgj60zj7854dsd2kdhbdhp80000gn/T/terraform-templates/one-click-multi-cloud/one-click-aws/aws_two_tier.tf
-			- SHA: dfdbeca0b17d4756f4bd3c18459950b93ad24d25919f88007db26c241d36c593
-			  Payload: key=LUFRPT10VGJKTEV6a0R4L1JXd0ZmbmN*********
-			  Lines: [289]
-
-
+		
+	......	
 ```
 
 The results are displayed on the portal and CLI and was flagged as BLOCK...SOURCEGUARD found many critical CVEs 
