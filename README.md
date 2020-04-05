@@ -1,4 +1,4 @@
-# CheckPoint SOURCEGUARD ![header image](sg.logo.png)
+# CheckPoint SOURCEGUARD ![header image](sg-logo.png)
 ## CheckPoint DevSecOps Source Code and Docker Container Image Scanner.
 
 With the rapid adoption of devops for application build and runtime, workloads have evolved from infrastructure servers and virtual machines to code with containers and serverless.
