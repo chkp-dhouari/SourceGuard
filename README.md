@@ -50,8 +50,8 @@ I would recommend creating a directory to store the file and where you can run a
 
 > sourceguard-cli -src file 
            
-### For Docker image scanning
-###Note: Installing Docker is not required for using SOURCEGUARD on your system . ALL you need is to docker image in a .tar file.
+### For Docker image scanning:
+### Note: Installing Docker is not required for using SOURCEGUARD on your system . ALL you need is to docker image in a .tar file.
 
 > sourceguard-cli -img <docker_image>.tar
  
