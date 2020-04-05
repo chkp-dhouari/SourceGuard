@@ -46,7 +46,7 @@ I would recommend creating a directory to store the file and where you can run a
  
 ### For source code scanning
 
-> sourceguard-cli -src <file location>
+> sourceguard-cli -src file 
            
 ### For Docker image scanning
 
