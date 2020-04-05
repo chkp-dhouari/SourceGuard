@@ -44,7 +44,6 @@ Please download and copy the sourceguard-cli file to a directory of your choice 
 <chmod 750> command using the mac terminal.
  
 ```
-
 dean:Downloads dasig$ 
 dean:Downloads dasig$ cp sourceguard-cli ~/sourceguard
 dean:Downloads dasig$ cd sourceguard 
@@ -80,9 +79,9 @@ dean:sourceguard dasig$ export SG_SECRET_KEY=73eb0ac8b12b4b7b9a9f6e30bd305848
 dean:sourceguard dasig$ 
 
 ```
-###YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
+## YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
 
-#Run the sourceguard CLI as an executable with
+### Run the sourceguard CLI as an executable with
 
 > ./sourceguard-cli
 
