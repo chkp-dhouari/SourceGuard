@@ -1,4 +1,4 @@
-# CheckPoint SOURCEGUARD ![header image](sg-logo.png)
+# CheckPoint SourceGuard ![header image](sg-logo.png)
 ## CheckPoint DevSecOps Source Code and Docker Container Image Scanner.
 
 With the rapid adoption of devops for application build and runtime, workloads have evolved from infrastructure servers and virtual machines to code with containers and serverless.
@@ -23,19 +23,23 @@ You can find Container training on my page at
 
 The SourceGuard scanner will provide SAST and DAST for source code and container images. 
 there are many SAST and DAST scanners such Clair and Anchore but the true se3curity value is with the ability to find CVEs and Critical Malware.
-SOURCEGUARD will be using ThreatCloud on backend using the MD5/SHA256 signatures of the content scanned. 
+SourceGuard will be using ThreatCloud on backend using the MD5/SHA256 signatures of the content scanned. 
 ThreadCloud is the market leading vulnerability and CVE DB that is been succesfully used
 on our endpoint security.
 ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAST security.  
 > https://community.checkpoint.com/t5/CheckMates-Nuggets/What-is-Threat-Cloud/td-p/47738
   
-## SourceGuard is in available for Beta testing on the CheckPoint Infinity portal.
+## SourceGuard is available for Beta testing on the CheckPoint Infinity portal.
 ### Note: While in Beta testing, we will allow up to 100Mb of scans per day.
 
-## SOURCEGUARD Installation
+## SourceGuard Installation:
 
-Please go to portal.checkpoint.com 
-Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space under the building icon in the top menu bar.
+Please go to the Infinity portal at https://portal.checkpoint.com
+Create an account by signing up to Infinity even if you are a checkpoint employee.
+
+   ![header image](infinity8.png)
+
+The default user space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space under the building icon in the top menu bar.
 
    ![header image](infinity6.png)
    
@@ -51,7 +55,7 @@ I would recommend creating a directory to store the file and where you can run a
 > sourceguard-cli -src file 
            
 ### For Docker image scanning:
-#### Note:  Installing Docker is not required for using SOURCEGUARD on your system . ALL you need is a docker image in a .tar file format.
+#### Note:  Installing Docker is not required for using SourceGuard on your system . ALL you need is a docker image in a .tar file format.
 
 > sourceguard-cli -img <docker_image>.tar
 
@@ -104,9 +108,9 @@ dean:sourceguard dasig$ export SG_SECRET_KEY=73eb0ac8b12b4b7b9a9f6e30bd305848
 dean:sourceguard dasig$ 
 
 ```
-## YOU ARE NOW READY TO SCAN SOURCE CODE AND CONTAINERS
+## YOU ARE NOW READY TO SCAN YOUR SOURCE CODE AND CONTAINERS
 
-### Run the sourceguard CLI with ./ on MacOS:
+### Run the SourceGuard CLI with ./ on MacOS:
 
 > ./sourceguard-cli
 
