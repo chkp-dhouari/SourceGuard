@@ -42,6 +42,15 @@ I would recommend creating a directory to store the file and where you can run a
   
  As you can scan code and docker container images, you will need to install Docker on you OS or you could run docker on a linux VM using virtual box. Please refer to my mastering kubernetes lab page where i provide a vagrant script to deploy Vbox VMs in a devops manner.
  
+## For source code scanning
+
+> sourceguard-cli -src <file location>
+           
+## For Docker image scanning
+
+> sourceguard-cli -img <docker_image>.tar
+ 
+ 
  ## MacOS Installation:
  
 Please download and copy the sourceguard-cli file to a directory of your choice 
