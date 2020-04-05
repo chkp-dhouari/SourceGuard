@@ -18,15 +18,16 @@ in a branch on a repo.
 When the code is ready to be compiled into an artifact such as a container, it is important to then scan the container image to tested and deployed.
 We will be providing support for Docker and the way to create a container is with a Dockerfile which defines the layers composed of containers images, source code and commands used by the app container image.
 As developpers use these container images such as busybox, node, nginx etc.. from DockerHub, they may be including CVEs and critical malware.
-You can find Container training on my page at https://github.com/chkp-dhouari/Mastering-Kubernetes/blob/master/Just-Enough-Containers.md
+You can find Container training on my page at 
+> https://github.com/chkp-dhouari/Mastering-Kubernetes/blob/master/Just-Enough-Containers.md
 
 The SourceGuard scanner will provide SAST and DAST for source code and container images. 
 there are many SAST and DAST scanners such Clair and Anchore but the true se3curity value is with the ability to find CVEs and Critical Malware.
 SOURCEGUARD will be using ThreatCloud on backend using the MD5/SHA256 signatures of the content scanned. 
 ThreadCloud is the market leading vulnerability and CVE DB that is been succesfully used
 on our endpoint security.
-ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAST security. 
-  https://community.checkpoint.com/t5/CheckMates-Nuggets/What-is-Threat-Cloud/td-p/47738
+ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAST security.  
+> https://community.checkpoint.com/t5/CheckMates-Nuggets/What-is-Threat-Cloud/td-p/47738
   
 ## SourceGuard is in available for Beta testing on the CheckPoint Infinity portal.
 #### Note: While in Beta testing, we will allow up to 100Mb of scans per day.
@@ -160,8 +161,7 @@ This illustrate the importance of container image scanning from any source on Do
  
  The installation on Linus is pretty much the same as MacOS by downloading the sourceguard-cli file on your linux system or VM.
  You can build Linux VMs using virtual box automatically in a devops manner with the Vagrant I provided with my mastering Kubernetes course. The Vagrant script will also install Docker and installation steps are located at: 
- 
-https://github.com/chkp-dhouari/Mastering-Kubernetes/blob/master/Provision-the-Kubernetes-environment.md
+> https://github.com/chkp-dhouari/Mastering-Kubernetes/blob/master/Provision-the-Kubernetes-environment.md
 
  ### Make the sourceguard-cli file as executable with chmod +x command:
  
