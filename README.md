@@ -89,35 +89,44 @@ dean:sourceguard dasig$
 > ./sourceguard-cli
 
 Note: in order to scan Docker container images, you will need to save docker images in a .tar file
-In the example below, i am scanning a F5 networks container image that i downloaded from Docker hub..
+In the example below, i am scanning the PALO ALTO container image for Terraform/Ansible that i downloaded from Docker hub..
 
 ```
 dean:sourceguard dasig$ docker images
-REPOSITORY                        TAG                 IMAGE ID            CREATED             SIZE
-testwebserver                     latest              23802c78f6a2        2 months ago        939MB
-node                              latest              2a0d8959c8e1        2 months ago        939MB
-h1kkan/jenkins-docker             lts                 155fb6109564        6 months ago        1.41GB
-kubernetes-hugo                   latest              cb484dc1e163        8 months ago        213MB
-alpine                            latest              4d90542f0623        9 months ago        5.58MB
-f5devcentral/f5-demo-app          2.0.0               4a0258aa1752        10 months ago       58MB
-arush/gateone                     http                0217951b392b        12 months ago       1.19GB
-arush/cka_lab                     latest              28ee82e1b525        22 months ago       20.4MB
-lucapalano/jenkins-newman         latest              7b076ab30c03        2 years ago         945MB
+REPOSITORY                           TAG                 IMAGE ID            CREATED             SIZE
+owasp/railsgoat                      latest              69f009ec9735        2 weeks ago         1.25GB
+testwebserver                        latest              23802c78f6a2        2 months ago        939MB
+node                                 latest              2a0d8959c8e1        2 months ago        939MB
+h1kkan/jenkins-docker                lts                 155fb6109564        6 months ago        1.41GB
+kubernetes-hugo                      latest              cb484dc1e163        8 months ago        213MB
+alpine                               latest              4d90542f0623        9 months ago        5.58MB
+f5devcentral/f5-demo-app             2.0.0               4a0258aa1752        10 months ago       58MB
+arush/gateone                        http                0217951b392b        12 months ago       1.19GB
+paloaltonetworks/terraform_ansible   latest              ee1b39b7d2f2        13 months ago       499MB
+arush/cka_lab                        latest              28ee82e1b525        22 months ago       20.4MB
+lucapalano/jenkins-newman            latest              7b076ab30c03        2 years ago         945MB
+vulnerables/web-owasp-railsgoat      latest              7e920996d870        2 years ago         719MB
 dean:sourceguard dasig$ 
-dean:sourceguard dasig$ docker save f5devcentral/f5-demo-app  -o f5.tar
+dean:sourceguard dasig$ docker save paloaltonetworks/terraform_ansible -o palo.tar
 dean:sourceguard dasig$ 
-dean:sourceguard dasig$ ls
-f5.tar		sourceguard-cli
-dean:sourceguard dasig$ ./sourceguard-cli -img f5.tar
-05-04-2020 19:55:46.671 SourceGuard Started
-05-04-2020 19:55:48.247 Project name: f5-demo-app path: /var/folders/b4/dpgj60zj7854dsd2kdhbdhp80000gn/T/sourceGuard294012542
-05-04-2020 19:55:48.247 Scan id: 426ffbadad83a72be592b4ebdbc4b4ce2662660be298c58a8756fdc073b18196-uA9C6C
-05-04-2020 19:55:54.409 Scanning ...
+dean:sourceguard dasig$ ls -l palo.tar
+-rw-------  1 dasig  staff  511048704 Apr  5 20:25 palo.tar
+dean:sourceguard dasig$ 
+dean:sourceguard dasig$ 
+dean:sourceguard dasig$ sourceguard-cli -img palo.tar
+-bash: sourceguard-cli: command not found
+dean:sourceguard dasig$ ./sourceguard-cli -img palo.tar
+05-04-2020 20:30:55.813 SourceGuard Started
+05-04-2020 20:30:57.357 Project name: terraform_ansible path: /var/folders/b4/dpgj60zj7854dsd2kdhbdhp80000gn/T/sourceGuard162328374
+05-04-2020 20:30:57.357 Scan id: 086a77ace5fcd665e185fa8483a18c2d866121ea8d7535bdaa99989d23c09427-cTfA8E
+05-04-2020 20:31:06.750 Scanning ...
+05-04-2020 20:32:49.848 Analyzing ...
+05-04-2020 20:33:51.766 Action: BLOCK
 
 ```
 
-The results are displayed on the portal and the tool found many critical CVEs which would recommend NOT running this container as well.
-This illustrate the importance of container image scanning and the ability of SOURCEGUARD to succesfully find critical issues with ThreatCloud 
+The results are displayed on the portal and CLI and was flagged as BLOCK...SOURCEGUARD found many critical CVEs 
+This illustrate the importance of container image scanning from any source on Docker Hub  and the ability of SOURCEGUARD to succesfully find critical issues with ThreatCloud 
 
  ![header image](docker1.png)
 
