@@ -38,6 +38,8 @@ Please go to the Infinity portal at https://portal.checkpoint.com
 Create an account by signing up to Infinity even if you are a checkpoint employee.
 
    ![header image](infinity8.png)
+   
+   ![header image](account.png)
 
 The default user space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space under the building icon in the top menu bar.
 
