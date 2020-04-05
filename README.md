@@ -41,7 +41,7 @@ Create an account by signing up to Infinity even if you are a checkpoint employe
 Please click on the SourceGuard service under the CONFIG tab on the left side menu and chose the Operating System of your choice ..Windows, MacOS or Linux by clicking on Dowload. the latest file is the recommeded choice and please download to your system in a dir.
 I would recommend creating a directory to store the file and where you can run all your scans.
 
-  ![header image](infinity2.png)
+  ![header image](infinity5.png)
   
  As you can scan code and docker container images, you will need to install Docker on you OS or you could run docker on a linux VM using virtual box. Please refer to my mastering kubernetes lab page where i provide a vagrant script to deploy Vbox VMs in a devops manner.
  
