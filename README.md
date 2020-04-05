@@ -27,9 +27,15 @@ SourceGuard is in available for Beta testing on the CheckPoint Infinity portal.
 ## SourceGuard Installation
 
 Please go to portal.checkpoint.com 
-Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which cannot be used.
+Create an account by signing up to Infinity even if you are a checkpoint employee. The default space for checkpoint employee is cp-all-demo which CANNOT be used. please switch to your registered account space.
 
    ![header image](infinity1.png)
+   
+Please click on the SourceGuard service under the CONFIG tab on the left side menu and chose the Operating System of your choice ..Windows, MacOS or Linux by clicking on Dowload. the latest file is the recommeded choice.
+
+  ![header image](infinity2.png)
+  
+
    
    
 
