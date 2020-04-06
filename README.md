@@ -159,7 +159,7 @@ Content Findings:
 ```
 
 The results are displayed on the portal and CLI and was flagged as BLOCK...The SourceGuard scan found many critical CVEs 
-This illustrate the importance of container image scanning from any source on Docker Hub  and the ability of SOURCEGUARD to succesfully find critical issues with ThreatCloud 
+This illustrate the importance of container image scanning from any source on Docker Hub  and the ability of SourceGuard to succesfully find critical issues with ThreatCloud 
 
  ![header image](docker2.png)
 
