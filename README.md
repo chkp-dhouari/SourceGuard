@@ -2,8 +2,8 @@
 ## CheckPoint DevSecOps Source Code and Docker Container Image Scanner.
 
 With the rapid adoption of devops for application build and runtime, workloads have evolved from infrastructure servers and virtual machines to code with containers and serverless.
-Infrastructure style security has to evolve as well to code centric security from application build to runtime by shifting to the left and by becoming treated as code.
-DevOps is built around a CI/CD methodology with various stage where all the stages are automated and interconnected by pipeline from build to deployment.
+Infrastructure style security has to evolve as well to code centric security from application build to runtime by shifting security to the left and by becoming treated as code.
+DevOps is built around a CI/CD methodology with various stage where all the stages are automated and interconnected as a pipeline from build to testing to deployment.
 It is important to natively integrate security to the main stages of the CI/CD pipeline from BUILD to RUNTIME in order to allow application teams to develop apps securely at devops and cloud native speed.
 
 This is well illustrated by the 4Cs of Cloud Native Security as defined by the CNCF. 
@@ -21,9 +21,9 @@ As developpers use these container images such as busybox, node, nginx etc.. fro
 You can find Container training on my page on how to use Docker containers and create a Docker container image: 
 > https://github.com/chkp-dhouari/Mastering-Kubernetes/blob/master/Just-Enough-Containers.md
 
-The SourceGuard scanner will provide SAST and DAST for source code and container images. 
-there are many SAST and DAST scanners such Clair and Anchore but the true se3curity value is with the ability to find CVEs and Critical Malware.
-SourceGuard will be using ThreatCloud on backend using the MD5/SHA256 signatures of the content scanned. 
+The SourceGuard scanner will provide SAST and DAST for source code and container images. This applies to Infrastructure as a Code templates as well like Terraform, Ansible or CFTs since they are code.
+There are many SAST and DAST scanners such Clair and Anchore but the true se3curity value is with the ability to find CVEs and Critical Malware.
+SourceGuard will be using ThreatCloud on the backend to perform analysis using the MD5/SHA256 signatures of the content scanned. 
 ThreadCloud is the market leading vulnerability and CVE DB that is been succesfully used
 on our endpoint security.
 ThreatCloud will bring the best CVE and Malware DBs engine with our SAST and DAST security.  
