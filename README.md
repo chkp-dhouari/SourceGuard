@@ -163,6 +163,9 @@ This illustrate the importance of container image scanning from any source on Do
 
  ![header image](docker2.png)
 
+In the case below, we scanned the aquasec official docker image for their Kubernetes vulnerabilities scanner or kube-hunter and came back as BLOCK with CVEs
+
+ ![header image](aquasec.png)
 
  ## LINUX Installation:
  
