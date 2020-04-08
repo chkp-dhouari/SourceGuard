@@ -196,7 +196,7 @@ Download the sourceguard-cli exe file to the sourceguard directory that you crea
     Each scan can be identified with a scan id which is automatically generated when running the scan at the command line.
 
 
-   ![header image](infinity10.png)
+   ![header image](infinity20.png)
    
    
    ![header image](infinity11.png)
