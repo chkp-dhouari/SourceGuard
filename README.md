@@ -158,12 +158,12 @@ Content Findings:
 	......	
 ```
 
-The results are displayed on the portal and CLI and was flagged as BLOCK...The SourceGuard scan found many critical CVEs 
+#### The results are displayed on the portal and CLI and was flagged as BLOCK...The SourceGuard scan found many critical CVEs 
 This illustrate the importance of container image scanning from any source on Docker Hub  and the ability of SourceGuard to succesfully find critical issues with ThreatCloud 
 
  ![header image](docker2.png)
 
-In the case below, we scanned the aquasec official docker image for their Kubernetes vulnerabilities scanner or kube-hunter and came back as BLOCK with CVEs
+#### In the case below, we scanned the Aquasec official docker image for their Kubernetes vulnerabilities scanner or kube-hunter and came back as BLOCK with CVEs
 
  ![header image](aquasec.png)
 
