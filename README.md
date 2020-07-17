@@ -52,7 +52,7 @@ I would recommend creating a directory to store the file and where you can run a
  
 ### For source code scanning
 
-> sourceguard-cli -src file 
+> sourceguard-cli -src <file path of Git or GitHub directory>
            
 ### For Docker image scanning:
 #### Note:  Installing Docker is not required for using SourceGuard on your system . ALL you need is a docker image in a .tar file format.
